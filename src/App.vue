@@ -1,6 +1,13 @@
 <template>
   <div>
-    <Header><h1>Buraya direk gelmesi gerekiyor</h1></Header>
+    <Header><h1>Buraya direk gelmesi gerekiyor</h1>
+    
+      <hr>
+        <input type="text" v-model="name">
+        <br>
+        <br>
+        <input type="text" v-model="surname">
+        </Header>
     <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
